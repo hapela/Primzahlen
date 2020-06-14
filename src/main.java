@@ -5,7 +5,7 @@ public class main {
 	// Berechnung der ersten 100 Priemzahlen
 		int anz=1; // Anzahl der ausgegebenen Priemzahlen
 		check check = new check();
-		for (int i=0;i<1000000;i++) {
+		for (int i=0;i<100;i++) {
 			if (check.isprim(i)) {
 				System.out.println(i+" ist die "+anz+". Primzahl");
 				anz++;
